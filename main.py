@@ -47,6 +47,7 @@ def run_scheduler():
         time.sleep(60)
 
 threading.Thread(target=run_scheduler, daemon=True).start()
+fetch_and_save_posts()
 
 @app.route('/')
 def home():
