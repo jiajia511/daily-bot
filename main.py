@@ -19,7 +19,7 @@ reddit = praw.Reddit(
     user_agent=os.getenv("USER_AGENT")
 )
 
-SUBREDDITS = ['AskReddit', 'AskWomen', 'nosleep', 'NoStupidQuestions']
+SUBREDDITS = ['AskReddit', 'AskWomen', 'pittsburgh', 'NoStupidQuestions']
 
 def fetch_and_save_posts():
     result = []
